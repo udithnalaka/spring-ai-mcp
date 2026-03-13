@@ -31,8 +31,8 @@ to the sessions loaded to get an accurate answer.
 
 * run the MCP server and test the Tool data
 
-  Can use the MCP Inspector tool to run an MCP Server and test the application.
-use the following link to and run the command to run the inspector.
+  Can use the MCP Inspector tool to run an MCP Server locally and test the application.
+use the following link to get more details and run the command to run the inspector.
 
   https://modelcontextprotocol.io/docs/tools/inspector
     
@@ -44,6 +44,16 @@ use the following link to and run the command to run the inspector.
    
 
 * Access the MCP inspector and check if the sessions are loaded.
+  
+  Connect to the MCP inspector by running below command
+
+      java -jar <path to the app jar file>
+
+  Open the Tools tab and load the tools available. this will show the registered tool with the given name in the @Tool annotation.
+
+  ![img_5.png](img_5.png)
+
+  Click the **Run Tool** button will display the sessions
 
   ![img_4.png](img_4.png)
 

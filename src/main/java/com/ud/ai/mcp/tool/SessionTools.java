@@ -32,7 +32,7 @@ public class SessionTools {
             var conference = objectMapper.readValue(inputStream, Conference.class);
             this.sessions = conference.sessions();
         } catch (IOException e) {
-            throw new RuntimeException("Failed to load sessions from Json file.", e);
+            throw new RuntimeException("Failed to load sessions from sessions.json file.", e);
         }
     }
 

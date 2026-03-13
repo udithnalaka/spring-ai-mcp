@@ -45,7 +45,7 @@ use the following link to get more details and run the command to run the inspec
 
 * Access the MCP inspector and check if the sessions are loaded.
   
-  Connect to the MCP inspector by running below command
+  Connect to the MCP inspector by running below command in the MCP Inspector tool.
 
       java -jar <path to the app jar file>
 
